@@ -1,0 +1,285 @@
+.bis-quality-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .bis-quality-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .bis-quality-header h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .client-info-card {
+    margin-bottom: 2rem;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    flex: 1;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .dimension-selector {
+    margin-bottom: 1rem;
+  }
+  
+  .dimension-tabs {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+  }
+  
+  .dimension-tab {
+    background: #f0f2f5;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .dimension-tab:hover {
+    background: #d9d9d9;
+  }
+  
+  .dimension-tab.active {
+    background: #1890ff;
+    color: white;
+  }
+  
+  .weight-badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.1rem 0.4rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+  }
+  
+  .dimension-card {
+    margin-bottom: 2rem;
+  }
+  
+  .dimension-description {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .progress-summary {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .progress-label {
+    font-weight: 500;
+  }
+  
+  .criteria-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .criteria-table th, .criteria-table td {
+    padding: 0.75rem;
+    border: 1px solid #f0f0f0;
+    text-align: left;
+  }
+  
+  .criteria-table th {
+    background: #fafafa;
+    font-weight: 500;
+  }
+  
+  .criterion-description {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .info-icon {
+    color: #1890ff;
+    cursor: help;
+  }
+  
+  .guidance-cell {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .score-indicator {
+    text-align: center;
+  }
+  
+  .notes-section {
+    margin-top: 2rem;
+  }
+  
+  .note-item {
+    margin-bottom: 1rem;
+  }
+  
+  .note-item label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  /* Summary View Styles */
+  .overall-score {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .score-display {
+    text-align: center;
+  }
+  
+  .score-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .score-label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .score-high {
+    color: #52c41a;
+    font-weight: bold;
+  }
+  
+  .score-medium {
+    color: #faad14;
+    font-weight: bold;
+  }
+  
+  .score-low {
+    color: #f5222d;
+    font-weight: bold;
+  }
+  
+  .score-poor {
+    color: #ff4d4f;
+    font-weight: bold;
+  }
+  
+  .quality-rating {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .dimension-scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .dimension-score-item {
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .dimension-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dimension-weight {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .criterion-result {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .criterion-name {
+    flex: 2;
+  }
+  
+  .criterion-score {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .notes-indicator {
+    margin-left: 0.5rem;
+    color: #1890ff;
+  }
+  
+  .specific-recommendations {
+    margin-top: 1.5rem;
+  }
+  
+  .dimension-recommendation {
+    margin-bottom: 1.5rem;
+  }
+  
+  .dimension-recommendation h4 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .dimension-recommendation ul {
+    margin-left: 1.5rem;
+    color: #666;
+  }
+  
+  .summary-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .form-row {
+      flex-direction: column;
+    }
+    
+    .dimension-scores {
+      grid-template-columns: 1fr;
+    }
+    
+    .overall-score {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
